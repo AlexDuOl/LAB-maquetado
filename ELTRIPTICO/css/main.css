@@ -1,3 +1,56 @@
 body {
-  background-color: gray ;
+  background-color: white;
+  width: 80em;
+}
+
+div #title {
+  background-color: #F7B617;
+  display: line;
+  font-size: 2em;
+  height: 3em;
+  margin-left: 2em;
+  padding-top: 1px;
+  position: relative;
+  text-align: center;
+  width: 36em;
+}
+
+#subtitle {
+  background-color: yellow;
+  display: inline-block;
+  font-size: 2em;
+  height: 18em;
+  position: relative;
+  text-align: center;
+  margin: 3px black;
+  margin-left: 2em;
+  width: 12em;
+}
+
+#subtitle1 {
+  background-color: purple;
+  display: inline-block;
+  font-size: 2em;
+  height: 18em;
+  position: relative;
+  text-align: center;
+  margin-left: 14em;
+  width: 12em;
+}
+
+#subtitle2 {
+  background-color: purple;
+  display: inline-block;
+  font-size: 2em;
+  height: 18em;
+  position: relative;
+  text-align: center;
+  margin-left: 26em;
+  width: 12em;
+}
+
+.paragraph1 p{
+  box-sizing: content-box;
+  font-size: 1em;
+  text-align: justify;
 }
