@@ -1,56 +1,79 @@
 body {
   background-color: white;
-  width: 80em;
 }
 
 div #title {
   background-color: #F7B617;
   display: line;
-  font-size: 2em;
+  font-size: 25px;
   height: 3em;
+  border: 1px solid black;
   margin-left: 2em;
+  margin-bottom: none;
   padding-top: 1px;
   position: relative;
   text-align: center;
   width: 36em;
 }
 
-#subtitle {
+div #subtitle {
   background-color: yellow;
-  display: inline-block;
-  font-size: 2em;
-  height: 18em;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  display:inline-block;
+  font-size: 22px;
+  height: 16em;
+  margin-left: 50px;
+  margin-top: none;
+  padding: 2%;
   position: relative;
   text-align: center;
-  margin: 3px black;
-  margin-left: 2em;
-  width: 12em;
+  width: 11em;
 }
 
-#subtitle1 {
-  background-color: purple;
+div #subtitle1 {
+  background-color: yellow;
+  border: 1px solid black;
+  border-top: none;
   display: inline-block;
-  font-size: 2em;
-  height: 18em;
+  font-size: 23px;
+  font-weight: bold;
+  height: 16em;
+  margin-left:none;
+  padding: 2%;
   position: relative;
   text-align: center;
-  margin-left: 14em;
-  width: 12em;
+  width: 11em;
 }
 
-#subtitle2 {
-  background-color: purple;
+div #subtitle2 {
+  background-color: yellow;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
   display: inline-block;
-  font-size: 2em;
-  height: 18em;
+  font-size: 22px;
+  height: 16em;
+  margin-left: none;
+  padding: 2%;
   position: relative;
   text-align: center;
-  margin-left: 26em;
-  width: 12em;
+  width: 11em;
 }
 
-.paragraph1 p{
+.image {
   box-sizing: content-box;
-  font-size: 1em;
+  display: block;
+  margin-left: 40px;
+  width: 170px;
+}
+
+.paragraph1 {
+  background-color: white;
+  box-sizing: border-box;
+  font-size: 15px;
   text-align: justify;
+  display: block;
+  width: 16em;
 }
