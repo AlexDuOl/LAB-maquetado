@@ -1,3 +1,49 @@
 body {
   background-color: gray ;
 }
+
+.first {
+  background-color: #EEEDEC;
+  display: inline-block;
+  height: 16em;
+  margin: 1px solid gray;
+  padding: 1em;
+  width:12em;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph {
+  box-sizing: content-box;
+  color: #B6B5B5;
+  font-size: 12px;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: justify;
+}
+
+.second {
+  background-color: white;
+  display: inline-block;
+  height: 16em;
+  margin: 2px solid gray;
+  padding: 1em;
+  width: 18em;
+}
+
+.subtitle {
+  color: #B6B5B5;
+  font-size: 16px;
+  font-family: 'Jua', sans-serif;
+  text-align: center;
+}
+
+.title {
+  color: #B6B5B5;
+  font-size: 20px;
+  font-family: 'Prompt', sans-serif;
+  text-align: center;
+}
