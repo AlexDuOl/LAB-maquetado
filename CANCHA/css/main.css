@@ -1,0 +1,90 @@
+body {
+  background-color: gray ;
+}
+
+div#pasto {
+  background-color: #8CB27C;
+  border: 1px #8CB27C;
+  height: 250px;
+  left: 30%;
+  position: relative;
+  width: 500px;
+}
+
+div#cancha {
+  border: 3px solid white;
+  height: 200px;
+  left: 25px;
+  position: absolute;
+  top: 25px;
+  width: 450px;
+}
+
+div#ccentro {
+  border: 3px solid white;
+  border-radius: 50px 50px;
+  height: 65px;
+  left: 190px;
+  position: absolute;
+  top: 33%;
+  width: 65px;
+}
+
+.porteria {
+  border: 3px solid white;
+  height: 90px;
+  position: absolute;
+  top: 25%;
+  width: 60px;
+}
+
+#pder {
+  border-right: none;
+  left: 86%;
+}
+
+#pizq {
+  border-left: none;
+}
+
+div#ballOne {
+  background-image: url("D:\LABORATORIA\CLASEPRACTICAMAQUETADO\CANCHA\assets\images/balon.png");
+  border: 2px solid white;
+  border-radius: 50px 50px;
+  height: 8px;
+  left: 52px;
+  position: relative;
+  top: 27%;
+  width: 8px;
+}
+
+div#ballTwo {
+  background-image: url("D:\LABORATORIA\CLASEPRACTICAMAQUETADO\CANCHA\assets\images/balon.png");
+  border: 2px solid white;
+  border-radius: 50px 50px;
+  height: 8px;
+  left:228px;
+  position: relative;
+  top: 1%;
+  width: 8px;
+}
+
+div#ballThree {
+  background-image: url("D:\LABORATORIA\CLASEPRACTICAMAQUETADO\CANCHA\assets\images/balon.png");
+  border: 2px solid white;
+  border-radius: 50px 50px;
+  height: 8px;
+  left: 370px;
+  position: relative;
+  top: 30%;
+  width: 8px;
+}
+
+.ball {
+  border-radius: 50px 50px;
+  height: 15px;
+  left: 0px;
+  position: relative;
+  top: 0%;
+  width: 15px;
+}

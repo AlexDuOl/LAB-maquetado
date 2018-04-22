@@ -1,0 +1,30 @@
+body {
+  background-color: gray ;
+}
+
+div {
+  width: 10em;
+  height: 10em;
+  position: absolute;
+}
+
+#box1 {
+  background-color: red;
+  top: 0;
+  left: 0;
+}
+#box2 {
+  background-color: green;
+  top: 0;
+  right: 0;
+}
+#box3 {
+  background-color: blue;
+  bottom: 0;
+  left: 0;
+}
+#box4 {
+  background-color: purple;
+  bottom: 0;
+  right: 0;
+}
