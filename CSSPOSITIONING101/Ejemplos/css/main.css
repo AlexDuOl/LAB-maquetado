@@ -1,21 +1,17 @@
 body {
-  background-color: gray ;
+  background-color: white;
 }
 
-#box_1 {
-	position: absolute;
-	top: 0;
-	right: 20%;
-	bottom: 0;
-	left: 0;
-	background: #ee3e64;
+#box_1, #box_2 {
+  margin: 0 auto;
+  width: 900px;
 }
 
 #box_2 {
-	position: absolute;
-	top: 0;
+  background: #f95b34;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+	position: fixed;
 	right: 0;
-	bottom: 0;
-	left: 80%;
-	background: #b7d84b;
 }
