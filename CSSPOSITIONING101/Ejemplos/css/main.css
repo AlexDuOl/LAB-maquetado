@@ -37,3 +37,12 @@ body {
 	height: 200px;
 	background: #ebde52;
 }
+
+#box_a {
+	position: absolute;
+	top: 80px;
+	right: 80px;
+	bottom: 80px;
+	left: 80px;
+	background: red;
+}
