@@ -1,79 +1,94 @@
 body {
-  background-color: white;
+  background-color: gray;
 }
 
-div #title {
-  background-color: #F7B617;
-  display: line;
-  font-size: 25px;
-  height: 3em;
+.box {
   border: 1px solid black;
-  margin-left: 2em;
-  margin-bottom: none;
-  padding-top: 1px;
-  position: relative;
-  text-align: center;
-  width: 36em;
-}
-
-div #subtitle {
-  background-color: yellow;
-  border: 1px solid black;
-  border-top: none;
-  border-right: none;
-  display:inline-block;
-  font-size: 22px;
-  height: 16em;
-  margin-left: 50px;
-  margin-top: none;
-  padding: 2%;
-  position: relative;
-  text-align: center;
-  width: 11em;
-}
-
-div #subtitle1 {
-  background-color: yellow;
-  border: 1px solid black;
-  border-top: none;
-  display: inline-block;
-  font-size: 23px;
-  font-weight: bold;
-  height: 16em;
-  margin-left:none;
-  padding: 2%;
-  position: relative;
-  text-align: center;
-  width: 11em;
-}
-
-div #subtitle2 {
-  background-color: yellow;
-  border: 1px solid black;
-  border-top: none;
-  border-left: none;
-  display: inline-block;
-  font-size: 22px;
-  height: 16em;
-  margin-left: none;
-  padding: 2%;
-  position: relative;
-  text-align: center;
-  width: 11em;
-}
-
-.image {
-  box-sizing: content-box;
-  display: block;
-  margin-left: 40px;
-  width: 170px;
-}
-
-.paragraph1 {
-  background-color: white;
   box-sizing: border-box;
+  background-color: black;
+  height: 610px;
+  left: 50px;
+  position: absolute;
+  width: 1200px;
+}
+
+.boxtop {
+  background-color: #F7B617;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  height: 50px;
+  margin-bottom: 8%;
+  position: absolute;
+  text-align: center;
+  width: 1198px;
+}
+
+.box1 {
+  background-color: white;
+  box-sizing: content-box;
+  float: left;
+  height: 70%;
+/*  margin-bottom: 8%;*/
+  margin-top: 4.2%;
+  overflow: left;
+  position: relative;
+  width: 30%;
+}
+
+.box2 {
+  background-color: white;
+  box-sizing: content-box;
+  float: auto;
+  height: 70%;
+  margin-bottom: 8%;
+  margin-top: 4.2%;
+  margin-left: 1px solid black;
+  margin-right: 1px solid black;
+  overflow: auto;
+  position: relative;
+  width: 30%;
+}
+
+.box3 {
+  background-color: white;
+  box-sizing: content-box;
+  float: right;
+  height: 70%;
+  margin-bottom: 8%;
+  margin-top: 4.2%;
+  overflow: right;
+  position: relative;
+  width: 30%;
+}
+
+.boxbottom {
+  background-color: #F7B617;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  float: bottom;
+  font-size: 20px;
+  position: relative;
+  overflow: auto;
+  text-align: center;
+  width: 1198px;
+}
+
+img {
+  box-sizing: content-box;
+  height: 140px;
+  left: 18%;
+  position: relative;
+  width: 180px;
+}
+
+.paragraph {
+  box-sizing: content-box;
   font-size: 15px;
+  padding: 3%;
   text-align: justify;
-  display: block;
-  width: 16em;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
 }
