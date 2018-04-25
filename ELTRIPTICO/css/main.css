@@ -6,10 +6,10 @@ body {
   border: 1px solid black;
   box-sizing: border-box;
   background-color: black;
-  height: 610px;
+  height: 520px;
   left: 50px;
   position: absolute;
-  width: 1200px;
+  width: 800px;
 }
 
 .boxtop {
@@ -17,68 +17,72 @@ body {
   border-bottom: 1px solid black;
   box-sizing: border-box;
   height: 50px;
-  margin-bottom: 8%;
+  margin-bottom: 15%;
   position: absolute;
   text-align: center;
-  width: 1198px;
+  width: 799px;
 }
 
 .box1 {
   background-color: white;
-  box-sizing: content-box;
+  display: block;
   float: left;
-  height: 70%;
-/*  margin-bottom: 8%;*/
-  margin-top: 4.2%;
-  overflow: left;
+  height: 80%;
+  margin-top: 6%;
   position: relative;
-  width: 30%;
+  width: 33.3%;
 }
 
 .box2 {
   background-color: white;
-  box-sizing: content-box;
-  float: auto;
-  height: 70%;
-  margin-bottom: 8%;
-  margin-top: 4.2%;
-  margin-left: 1px solid black;
-  margin-right: 1px solid black;
-  overflow: auto;
+  display: block;
+  float: left;
+  height: 80%;
+  margin-bottom: 0%;
+  margin-top: 6%;
+  border-left: 1.3px solid black;
+  border-right: 1.2px solid black;
   position: relative;
-  width: 30%;
+  width: 33%;
 }
 
 .box3 {
   background-color: white;
-  box-sizing: content-box;
+  display: block;
   float: right;
-  height: 70%;
-  margin-bottom: 8%;
-  margin-top: 4.2%;
-  overflow: right;
+  height: 80%;
+  margin-bottom: 0%;
+  margin-top: 6%;
   position: relative;
-  width: 30%;
+  width: 33.3%;
 }
 
 .boxbottom {
   background-color: #F7B617;
   border-bottom: 1px solid black;
-  box-sizing: border-box;
+  display: block;
   float: bottom;
   font-size: 20px;
   position: relative;
   overflow: auto;
   text-align: center;
-  width: 1198px;
+  width: 798px;
 }
 
-img {
+.img1 {
   box-sizing: content-box;
   height: 140px;
   left: 18%;
   position: relative;
   width: 180px;
+}
+
+.img2 {
+  box-sizing: content-box;
+  height: 120px;
+  left: 18%;
+  position: relative;
+  width: 140px;
 }
 
 .paragraph {
