@@ -1,47 +1,87 @@
 body {
-  background-color: gray ;
-}
-
-
-.options {
   background-color: white;
-  display: block;
-  height: 16em;
-  margin: 1px solid white;
-  padding: 1em;
-  width:12em;
 }
 
-.:hover {
-  background-color:#B6B5B5;
+.box_1 {
+  background-color: #D6D5D5;
+  border: 1px solid black;
+  height: 28em;
+  left: 35%;
+  position: relative;
+  width: 17em;
 }
 
 .first {
-  background-color: #F7B617;
+  background-color: #D6D5D5;
+  color: black;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.first:hover {
+  background-color: #F7B617;
+  color: white;
+}
+
+.second {
+  background-color: #D6D5D5;
+  color: black;
+  display: block;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.second:hover {
+  background-color: #B5B4B4;
+}
+
+.third {
+  background-color: #D6D5D5;
+  color: black;
+  display: block;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.third:hover {
+  background-color: #B5B4B4;
+}
+
+.fourth {
+  background-color: #D6D5D5;
+  color: black;
+  display: block;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.fourth:hover {
+  background-color: #B5B4B4;
+}
+
+.fifth {
+  background-color: #D6D5D5;
+  color: black;
+  display: block;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.fifth:hover {
+  background-color: #B5B4B4;
 }
 
 .title {
   color: black;
-  font-size: 30px;
+  font-size: 2em;
   font-family: 'Prompt', sans-serif;
-  padding: 6px;
+  margin-left: 10px;
+  padding: 1px;
   text-align: left;
 }
-
-/*.paragraph {
-  box-sizing: content-box;
-  color: #B6B5B5;
-  font-size: 12px;
-  font-family: 'Do Hyeon', sans-serif;
-  text-align: justify;
-}*/
-
-/*.subtitle {
-  color: #B6B5B5;
-  font-size: 16px;
-  font-family: 'Jua', sans-serif;
-  text-align: center;
-}*/
